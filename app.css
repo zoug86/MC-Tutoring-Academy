@@ -1,0 +1,308 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+    width: 100px;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 50%;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/*----------------banner section--------------*/
+
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding-top: 5%;
+    color: #fff;
+}
+
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+.image{
+    height: 400px;
+}
+
+.bottom-img{
+    width: 100%;
+    height: 200px
+}
+
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    /* width: 250px; */
+}
+
+#services{
+    padding: 10px 0;
+
+}
+
+.services{
+    padding: 20px;
+}
+
+.title::before{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+.service-img{
+    width: 250px;
+}
+
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+/*-----------------About-us section------------------*/
+
+#about-us {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+.about-title{
+    font-size:40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#about-us ul li{
+    margin: 15px 0;
+}
+
+#about-us ul{
+    margin-left: 20px;
+}
+
+/*-----------------Testimonials section------------------*/
+
+#testimonials {
+    margin: 100px 0;
+}
+
+.testimonials{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/*-------------Pricing-----------------*/
+#pricing{
+    background: #f8f9fa;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .pricing{
+    margin-top: 50px;
+}
+
+  /* Create three columns of equal width */
+  .columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
+  
+  /* Style the list */
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  /* Add shadows on hover */
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Pricing header */
+  .price .header {
+    background-color: #7b1798;
+    color: white;
+    font-size: 25px;
+  }
+  
+  /* List items */
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Grey list item */
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  /* The "Sign Up" button */
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .button:hover{
+    text-decoration: none;
+    color: #7b1798;
+  }
+
+  .info{
+      margin-top: 30px;
+      padding-left: 50px;
+  }
+  
+  /* Change the width of the three columns to 100%
+  (to stack horizontally on small screens) */
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
+
+
+/*------------Social Media Setion----------*/
+#social-media{
+    background: #fff;
+}
+#social-media{
+    margin-top: 100px;
+}
+
+.contact-us{
+    margin-bottom: 70px;
+}
+
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+.social-icons a{
+    color: #000;
+    text-decoration: none;
+}
+
+.phone{
+    margin-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/*----------------------Footer Section------------------*/
+
+#footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    
+}
+
+.footer-img{
+    width: 100%;
+}
+.footer-logo{
+    text-decoration: none;
+    color: #fff;
+}
