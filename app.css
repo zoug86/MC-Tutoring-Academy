@@ -46,6 +46,10 @@ body{
     outline: none !important;
 }
 
+.nav-item:hover{
+    transform: translateY(-4px);
+    
+}
 /*----------------banner section--------------*/
 
 #banner{
