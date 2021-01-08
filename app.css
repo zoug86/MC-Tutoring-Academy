@@ -9,11 +9,11 @@ body{
     overflow-x: hidden;
 }
 
-#nav-bar{
+/* #nav-bar{
     position: sticky;
     top: 0;
     z-index: 10;
-}
+}  */
 
 .navbar{
     background-image: linear-gradient(to right, #a517ba, #5f1782);
@@ -43,13 +43,13 @@ body{
     font-size: 30px !important;
 }
 
-.navbar-toggler{
+/* .navbar-toggler{
     outline: none !important;
-}
+} */
 
 .nav-item:hover{
     transform: translateY(-4px);
-    transition: 0.7s;
+    transition: 1s;
     
 }
 /*----------------banner section--------------*/
