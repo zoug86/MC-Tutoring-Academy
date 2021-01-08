@@ -251,16 +251,30 @@ body{
     font-size: 18px;
   }
 
-  .button:hover{
-    text-decoration: none;
-    color: #7b1798;
-  }
-
   .info{
       margin-top: 30px;
       padding-left: 50px;
   }
   
+  .grey-bottom{
+    background-color: #19bb5c;
+    font-size: 25px;
+  }
+  a.wide {
+    display:block;
+    text-decoration: none;
+    background-color: #19bb5c;
+    color: #fff;
+}
+
+a.wide:hover{
+    text-decoration: none;
+    color:#111;
+    font-size: 700;
+    transform: translateY(-8px);
+    transition: 0.6s;
+  }
+
   /* Change the width of the three columns to 100%
   (to stack horizontally on small screens) */
   /* @media only screen and (max-width: 600px) {
@@ -317,10 +331,13 @@ body{
     margin-bottom: 0;
 }
 
-.phone2{
-    margin-top: 10px;
-    padding-bottom: 0;
+.fb-link{
     padding-left: 5px;
+}
+.phone2{
+    margin-top: 12px;
+    padding-bottom: 0;
+    padding-left: 7px;
     margin-bottom: 0;
 }
 
