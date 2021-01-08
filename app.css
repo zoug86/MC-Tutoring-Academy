@@ -284,21 +284,43 @@ body{
 }
 
 .social-icons img{
-    width: 60px;
+    width: 50px;
     transition: 0.5s;
+    height: 50px;
+    border-radius: 50%;
 }
 
-.social-icons a:hover img{
+.icons{
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.social-icons img:hover{
     transform: translateY(-10px);
 }
-.social-icons a{
-    color: #000;
+
+.social-icons span{
+    color: black;
+}
+
+.social-icons span:hover{
+    font-weight: 600;
+}
+
+.social-icons a, .social-icons a:hover, .social-icons a:focus {
     text-decoration: none;
 }
 
 .phone{
-    margin-top: 20px;
+    margin-top: 25px;
     padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.phone2{
+    margin-top: 10px;
+    padding-bottom: 0;
+    padding-left: 5px;
     margin-bottom: 0;
 }
 
@@ -320,4 +342,8 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
+}
+
+.footer-logo:hover{
+    color: black;
 }
