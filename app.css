@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;;
 }
 
 body{
@@ -49,6 +50,7 @@ body{
 
 .nav-item:hover{
     transform: translateY(-4px);
+    transition: 0.7s;
     
 }
 /*----------------banner section--------------*/
