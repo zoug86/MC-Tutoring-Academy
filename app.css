@@ -6,6 +6,7 @@
 
 body{
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 
 #nav-bar{
@@ -299,14 +300,16 @@ body{
 
 #footer{
     background-image: linear-gradient(to right, #a517ba, #5f1782);
-    color: #fff;
-    padding-bottom: 0;
+    color: red;
 }
 
 .footer-img{
     width: 100%;
+    height: 200px;
 }
 .footer-logo{
     text-decoration: none;
     color: #fff;
+    margin: 0;
+    padding: 0;
 }
