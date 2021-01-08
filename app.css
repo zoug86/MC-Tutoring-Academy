@@ -58,6 +58,7 @@ body{
     background-image: linear-gradient(to right, #a517ba, #5f1782);
     padding-top: 5%;
     color: #fff;
+    overflow-x: hidden;
 }
 
 .promo-title{
@@ -141,6 +142,7 @@ body{
     background: #f8f9fa;
     padding-bottom: 50px;
     padding-top: 100px;
+    overflow-x: hidden;
 }
 
 .about-title{
@@ -161,6 +163,7 @@ body{
 
 #testimonials {
     margin: 100px 0;
+    overflow-x: hidden;
 }
 
 .testimonials{
@@ -184,6 +187,7 @@ body{
 /*-------------Pricing-----------------*/
 #pricing{
     background: #f8f9fa;
+    overflow-x: hidden;
 }
 
 * {
@@ -259,16 +263,17 @@ body{
   
   /* Change the width of the three columns to 100%
   (to stack horizontally on small screens) */
-  @media only screen and (max-width: 600px) {
+  /* @media only screen and (max-width: 600px) {
     .columns {
       width: 100%;
     }
-  }
+  } */
 
 
 /*------------Social Media Setion----------*/
 #social-media{
     background: #fff;
+    overflow-x: hidden;
 }
 #social-media{
     margin-top: 100px;
@@ -302,6 +307,7 @@ body{
 #footer{
     background-image: linear-gradient(to right, #a517ba, #5f1782);
     color: red;
+    overflow-x: hidden;
 }
 
 .footer-img{
@@ -313,4 +319,5 @@ body{
     color: #fff;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
