@@ -18,9 +18,50 @@
 }
 
 #paypal-button-container{
-    width: 20rem;
+    text-align: center;
+    width: 30rem;
 }
 
 .payment-text{
-    font-size: 5rem;
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 1250px) {
+    .payment-text {
+        font-size: 2rem;
+    }
+
+    #paypal-button-container{
+    text-align: center;
+    width: 20rem;
+   }
+}
+
+@media only screen and (max-width: 900px) {
+    .payment{
+        width: 100%;
+    }
+
+    .payment-text {
+        font-size: 2rem;
+    }
+
+    #paypal-button-container{
+    text-align: center;
+    width: 20rem;
+   }
+}
+
+@media only screen and (max-width: 550px) {
+    .payment{
+        width: 100%;
+    }
+    .payment-text {
+        font-size: 1.7rem;
+    }
+
+    #paypal-button-container{
+    text-align: center;
+    width: 15rem;
+   }
 }
