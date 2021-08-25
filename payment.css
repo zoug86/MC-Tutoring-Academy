@@ -1,0 +1,26 @@
+.paypal-payment{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment{
+    margin-top: 5rem;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(175, 167, 167);
+    padding: 5rem;
+}
+
+#paypal-button-container{
+    width: 20rem;
+}
+
+.payment-text{
+    font-size: 5rem;
+}

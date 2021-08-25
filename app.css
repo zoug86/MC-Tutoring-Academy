@@ -241,7 +241,7 @@ body{
   }
   
   /* The "Sign Up" button */
-  .button {
+  /* .button {
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -249,7 +249,7 @@ body{
     text-align: center;
     text-decoration: none;
     font-size: 18px;
-  }
+  } */
 
   .info{
       margin-top: 30px;
@@ -260,14 +260,14 @@ body{
     background-color: #19bb5c;
     font-size: 25px;
   }
-  a.wide {
+  a.checkout {
     display:block;
     text-decoration: none;
     background-color: #19bb5c;
     color: #fff;
 }
 
-a.wide:hover{
+a.checkout:hover{
     text-decoration: none;
     color:#111;
     font-size: 700;
